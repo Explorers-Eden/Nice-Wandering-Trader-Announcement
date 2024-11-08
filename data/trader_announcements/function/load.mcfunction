@@ -5,7 +5,7 @@ scoreboard objectives add eden.technical dummy
 schedule function trader_announcements:run 5s
 
 ##remove temp storage
-data remove storage eden:temp trader
+data remove storage eden:temp trader.announcement
 
 ## Wandering Trader Team
 team add wandering_trader

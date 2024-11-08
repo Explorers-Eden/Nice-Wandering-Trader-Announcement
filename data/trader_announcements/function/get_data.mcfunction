@@ -1,6 +1,6 @@
-execute store result storage eden:temp trader.x int 1 run data get entity @s Pos[0]
-execute store result storage eden:temp trader.y int 1 run data get entity @s Pos[1]
-execute store result storage eden:temp trader.z int 1 run data get entity @s Pos[2]
+execute store result storage eden:temp trader.announcement.x int 1 run data get entity @s Pos[0]
+execute store result storage eden:temp trader.announcement.y int 1 run data get entity @s Pos[1]
+execute store result storage eden:temp trader.announcement.z int 1 run data get entity @s Pos[2]
 
 team join wandering_trader @s
 effect give @s minecraft:glowing 15 0 true
