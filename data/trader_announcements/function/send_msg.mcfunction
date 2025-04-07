@@ -1,4 +1,6 @@
 playsound minecraft:entity.chicken.egg neutral @s ~ ~ ~ .6 2
-tellraw @s [{"bold":false,"color":"#75A7FF","italic":false,"text":"A Wandering Trader is nearby"},{"bold":false,"color":"gray","italic":false,"text":": "},{"text":"X","color":"light_purple","bold":false,"italic":false},{"bold":false,"color":"gray","italic":false,"text":":"},{"storage":"eden:temp","nbt":"trader.announcement.x","color":"#F5E8C9","bold":false,"italic":false},{"text":" Y","color":"green","bold":false,"italic":false},{"bold":false,"color":"gray","italic":false,"text":":"},{"storage":"eden:temp","nbt":"trader.announcement.y","color":"#F5E8C9","bold":false,"italic":false},{"text":" Z","color":"aqua","bold":false,"italic":false},{"bold":false,"color":"gray","italic":false,"text":":"},{"storage":"eden:temp","nbt":"trader.announcement.z","color":"#F5E8C9","bold":false,"italic":false}]
-
-data remove storage eden:temp trader
+title @s actionbar  [\
+{"bold":false,"color":"dark_gray","italic":false,"text":"- "},\
+{"bold":false,"color":"#75A7FF","italic":false,"text":"Wandering Trader Nearby"},\
+{"bold":false,"color":"dark_gray","italic":false,"text":" -"}\
+]
